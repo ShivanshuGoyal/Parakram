@@ -1,0 +1,25 @@
+<ul>
+<center>
+<small>
+Order of play shall be:
+<pre>
+1.		A				vs.					X
+2.		B				vs.					Y
+3.		C				vs.					Z
+4.		A				vs.					Y
+5.		B				vs.					X
+</pre>
+</small>
+</center><br/>
+<li>The results of the tie shall be declared when either of the team wins three matches.</li>
+
+<li>The number of players representing any institute shall not be less than three or more than four.<br/>
+At most four certificates shall be awarded to a winning team.</li>
+
+<li>Each singles shall be played on best of five games basis, each game consist of 11 points.</li>
+
+<li>The number of players representing an institute shall not be less than two or more than three in the women?s event.</li>
+
+<li>Not more than 3 certificates shall be awarded to a team.</li>
+</ul>
+asdfvcxz

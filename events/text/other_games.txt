@@ -1,0 +1,6 @@
+<ul>
+<img src="paint.png" style="position:absolute;"/>
+<img src="tug.png" style="position:absolute;"/>
+<img src="roadies.png" style="position:absolute;"/>
+<img src="casino.png" style="position:absolute;"/>
+</ul>

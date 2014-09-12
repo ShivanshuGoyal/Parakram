@@ -1,0 +1,17 @@
+<ul>
+<h1>Football</h1>
+<li>The tournament will be knockout or league based on the number of teams.</li>
+
+<li>Each match shall last 50 minutes, comprising two periods of 25 minutes, with an interval of 5 minutes</li>
+
+<li>. 16 players (eleven selected players and five substitutes) shall be eligible to take part in the matches.<br/>
+Two of these 16 players must be goalkeepers, with the number one shirt being reserved for one of them.</li>
+
+<li>I-Card of the institute/College/School is obligatory; otherwise player cannot play the match.</li>
+
+<li>The teams should be with Proper Football Uniform: -
+	Jersey with number, Shorts, stockings, Shin pad, Studs (football shoes).</li>
+
+
+</ul>
+asdfvcxz

@@ -1,0 +1,12 @@
+<script>
+var content="";
+$("img.ot").click(function(){content=$("#content").html();$("#content").html("<ul><input type=\"button\" style=\"position:absolute;top:1%;right:1%;cursor:pointer;font-size:1.2em; color:#555;\" onclick=\"$('#other_games').click();\" value=\"Back\" /><br/><h1 style=\"margin-top:3%\"><u>"+this.attributes['id'].value+"</u></h1><br/><h1 style=\"margin-top:30%\">Coming Soon...</h1></ul>");$("#circles>ul").html("");});
+</script>
+<ul style="height:85%;">
+<h1 style="position:absolute;top:50%;left:40%;">Other Games</h1>
+<img class="ot" id="Paintball" src="paint.png" style="position:absolute;top:0px;cursor:pointer;"/>
+<img class="ot" id="Tug of War" src="tug.png" style="position:absolute;top:0px;right:0px;cursor:pointer;"/>
+<img class="ot" id="Roadies" src="roadies.png" style="position:absolute;right:0px;bottom:0px;cursor:pointer;"/>
+<img class="ot" id="Casino" src="casino.png" style="position:absolute;bottom:0px;cursor:pointer;"/>
+</ul>
+asdfvcxz

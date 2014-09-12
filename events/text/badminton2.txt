@@ -1,0 +1,12 @@
+<ul>
+<li>Result (Men and Women) of best of three sets (each set of 21 points)</li>
+
+<li>The order of events shall be as follows:<br/>
+       Men: First Singles/Second Singles/First Doubles/Third Singles/Second Double<br/>
+       Women: First Singles/Second Singles/Doubles</li>
+
+<li>Number of players<br/>
+       Men: The number of players representing any institute in a team will be a maximum of 5 members.<br/>
+       Women: The number of players representing any institute in a team will be a maximum of 3 members.</li>
+</ul>
+asdfvcxz

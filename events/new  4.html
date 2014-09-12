@@ -1,0 +1,32 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+<input type="text" id="input"/><br/>
+<button id="X" >getpercentX</button>
+<button id="Y" >getpercentY</button>
+
+<div></div>
+<script>
+$("button#X").click(function(){
+				$("div").html(Number($("#input").val())*100/window.innerWidth)
+				});
+$("button#Y").click(function(){
+				$("div").html(Number($("#input").val())*100/window.innerHeight)
+				});
+$("#input").keydown(function(event){
+				switch(event.which)
+				{
+					case 88 : $("div").html(Number($("#input").val())*100/window.innerWidth);
+								return false;
+								break;
+					case 89 : $("div").html(Number($("#input").val())*100/window.innerHeight);
+								return false;
+								break;
+				}
+				});
+</script>
+					
+</body>
+</html>

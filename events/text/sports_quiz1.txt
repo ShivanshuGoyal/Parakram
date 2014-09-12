@@ -1,0 +1,47 @@
+<p style="font-weight:bold; font-size:22px; margin-top:3%; color:#16648b" align="center">Sport Quiz</p>
+<table style="" border="1" cellspacing="10px" width="100%">
+	<tbody>
+		<tr>
+			<td>
+				<p>
+					<font style="display:block;margin-left:31px;font-weight:bold;text-align:justify;font-family:calibri;font-size:18px" color="#000">
+						" Citius, Altius, Fortius- Faster, Higher, Stronger, come this 10th of April and we will take human endurance to its ultimate test. Found
+						that intimidating? Well things are just getting started, for this ultimate Sports Quiz will challange human endurance in every sense of
+						the word. At the helm of affairs would be the nationally renowned Quiz Master, author, columnist and CEO of Greycells,the award winning
+						company, Mr. Gautam Bose.<br>The Q.M. can be reached at
+					<font color="#16648b"> [greycells78@rediffmail.com]" </font>
+					</font>
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p align="center"></p>
+
+<table style="" border="0" cellspacing="10px" width="100%">
+	<tbody>
+		<tr>
+			<td>
+				<img src="gautam.jpg" alt="Mr. Gautam Bose" height="150px" width="200px"><br><br>
+				<center><font style="font-weight:bold; font-size:18px" color="#16648b"> Mr. Gautam Bose</font></center>
+			</td>
+			<td width="68%">
+				<font style="font-weight:bold; font-size:18px" color="#16648b">Rules of the game</font>
+
+				<font style="font-weight:bold;text-align:justify;font-family:calibri;font-size:18px" color="#000">
+					<ul style="margin:5%; list-syle:disk;">
+						<li>Two members per team.</li>
+						<li>This quiz is open to all irrespective of their age, caste, sex or
+						affliations. Any non- institutional team would be treated as a
+						corporate team.</li>
+						<li>Cross-teams are allowed.</li>
+						<li>Prizes for the top three finishers:<br>
+						1st prize- 10,000 plus attractive goodies<br>
+						2nd prize-6,000 plus attractive goodies<br>
+						3rd prize-4,000 plus attractive goodies.</li>
+					</ul>
+				</font>
+			</td>
+		</tr>
+</table>
+asdfvcxz

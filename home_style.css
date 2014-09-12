@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+#home{
+    position: absolute;
+	margin: 0px;
+	left: 0px;
+	width: 100%;
+	background-image: url("bg5.jpg");
+	background-position: 0% 0% ;
+	background-size: 100% 100% ; 
+	background-color:rgb(102, 204, 136);
+	height: 666px;
+	max-width: 1366px;
+	min-width: 1330px;
+	max-height: 666px;
+	min-height: 640px;
+	top: 666px;
+}
+span.menu{
+    display:block;
+    width:20%;
+    color:#000;
+    height:8%;
+    text-align:left;
+    transition:font 0.25s ease;
+    -moz-transition:font 0.25s ease;
+    -webkit-transition:font 0.25s ease;
+    -o-transition:font 0.25s ease;
+    -ms-transition:font 0.25s ease;
+/*    border-bottom:1px solid rgba(180,180,250,0.7);*/
+}
+span.menu:first-child{
+    margin-top:10%;
+}
+span.menu>span{
+    display:block;
+    height:7%;
+    width:15%;
+    margin-left:2%;
+    position:absolute;
+    border-bottom:1px solid #000;
+    text-transform:capitalize;
+}
+span.menu>span>span{
+    position:absolute;
+    width:115%;
+    margin-left:20%;
+    z-index:2;
+}
+span.menu>span>span>b{
+    font-size:1.6em;
+    font-weight:normal;
+}
+
+span.menu>span.last{
+    border-bottom:0px solid transparent;
+}
+span.menu:hover{
+    font-size:1.7em;
+/*    background:rgba(150,230,150,0.9);*/
+}
+div.data{
+    position:absolute;
+    top:20%;
+    height:65%;
+    width:75%;
+    left:-80.4%;
+    transition:left 1s ease,opacity 1s ease;
+    -moz-transition:left 1s ease,opacity 1s ease;
+    -webkit-transition:left 1s ease,opacity 1s ease;
+    -o-transition:left 1s ease,opacity 1s ease;
+    ms-transition:left 1s ease,opacity 1s ease;
+    background:rgba(150,180,0,0.3);
+    opacity:0;
+    font-size:1.4em;
+    z-index:0;
+    border-radius:20px;
+   color:rgba(0,0,0,1);
+
+}
+div.data>h1{
+    text-align:left;
+}
+div.data:hover{
+    left:-80.4%;
+}
+
+div#sponsors-div{
+    background-image:liner-gradient( #fff 0%,#000 100% );
+}
+div.data{
+    background-image:liner-gradient( 0% #fff,100% #000);
+}
+span.menu:hover+div.data{
+    left:19.6%;
+    opacity:1;
+}
+div.data:hover{
+   left:19.6%;
+    opacity:1;
+}
+div.data>div>h1{
+    margin-left:-3%;
+    padding-bottom:1%
+}
+div.text{
+    margin:6% 6% 0% 6%;
+}

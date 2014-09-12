@@ -1,0 +1,17 @@
+<ul>
+<h1>Athletica</h1>
+<li>Every individual must hold a valid college identification card.</li>
+
+<li>In case of team entries, all team members must be from the same college.</li>
+
+<li>Every individual brings its own its own personal gear.</li>
+
+<li>Common equipments to be used in the competition will be provided by ISM Dhanbad.</li>
+
+<li>Maximum 3 entries are allowed for each event from one college and one participant can do maximum of 3 events apart from relays.</li>
+
+<li>Whatever is to be used in the competition has to be verified by the referees.</li>
+
+<li>Depending upon the number of participants, events can have heats, semi-finals and/or direct finals.</li>
+</ul>
+asdfvcxz

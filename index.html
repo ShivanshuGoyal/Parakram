@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>Parakram 2013</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="jquery.js" ></script>
+<script type="text/javascript" >
+$(window).load(function(){
+	var t=0;
+	$("#mask>img").each(function(){ t++;});
+	var numberImages = t-1;
+	$("img.i243").attr("style","");
+	setTimeout(function(){
+		index = new Array();
+		for(j=0;j<numberImages;j++){
+			index[j]=j+1;
+		}
+		function randomizeArray( myArray ) {
+		  var i = myArray.length, j, tempi, tempj;
+		  if ( i == 0 ) return false;
+		  while ( --i ) {
+			 j = Math.floor( Math.random() * ( i + 1 ) );
+			 tempi = myArray[i];
+			 tempj = myArray[j];
+			 myArray[i] = tempj;
+			 myArray[j] = tempi;
+		   }
+		}
+		/*for(j=0;j<numberImages;j++){
+			if(index[j]==243){ 
+				var temp = index[0];
+				index[0]=index[j];
+				index[j]=temp;
+				break;
+			}
+		}*/
+		randomizeArray(index);
+		var i=0;
+		function show(){
+			if(i>(numberImages-1)){
+				setTimeout(function(){
+					document.getElementById("enter").style.opacity="1";
+					$("#loading").fadeOut("slow");
+					$("span.tagLine").fadeIn("slow");
+					
+					clearInterval(I);
+				},4000); 
+				return;
+			}
+			$("img.i"+index[i]).attr("style","");
+			setTimeout(show,100);
+			i++;
+		}
+		show();
+	},1000);
+});
+</script>
+</head>
+<body>
+<div id="timer">
+			<div id="day">
+				<span id="days">25</span>
+				<span>DAYS </span>
+			</div>
+			<span id="hours">23</span><span>&nbsp;:&nbsp;</span>
+			<span id="minutes">39</span><span>&nbsp;:&nbsp;</span>
+			<span id="seconds" style="font-size:2.5em">13</span>
+			<span></span><br>
+			<span style="text-align:center; font-size:1em;"></span>
+			<span id="loading" style="position:absolute;top:100%"> <span>Loading</span><span class="dots" id="1">.</span><span class="dots" id="2">.</span><span class="dots" id="3">.</span>
+			</span>
+			<span class="tagLine" style="position:absolute;top:100%; display:none;text-align:right;padding-right:2%;" >Let the <b>Games</b> begin</span>
+</div>
+<img class="BACK" src="indexme2.jpg" />
+<div id="mask" style="position:absolute">
+	<img style="top: -2000px;" src="trans.png" class="i1">
+	<img style="top: -2000px;" src="trans.png" class="i2">
+	<img style="top: -2000px;" src="trans.png" class="i3">
+	<img style="top: -2000px;" src="trans.png" class="i4">
+	<img style="top: -2000px;" src="trans.png" class="i5">
+	<img style="top: -2000px;" src="trans.png" class="i6">
+	<img style="top: -2000px;" src="trans.png" class="i7">
+	<img style="top: -2000px;" src="trans.png" class="i8">
+	<img style="top: -2000px;" src="trans.png" class="i9">
+	<img style="top: -2000px;" src="trans.png" class="i10">
+	<img style="top: -2000px;" src="trans.png" class="i11">
+	<img style="top: -2000px;" src="trans.png" class="i12">
+	<img style="top: -2000px;" src="trans.png" class="i13">
+	<img style="top: -2000px;" src="trans.png" class="i14">
+	<img style="top: -2000px;" src="trans.png" class="i15"><img style="top: -2000px;" src="trans.png" class="i16"><img style="top: -2000px;" src="trans.png" class="i17"><img style="top: -2000px;" src="trans.png" class="i18"><img style="top: -2000px;" src="trans.png" class="i19"><img style="top: -2000px;" src="trans.png" class="i20"><img style="top: -2000px;" src="trans.png" class="i21"><img style="top: -2000px;" src="trans.png" class="i22"><img style="top: -2000px;" src="trans.png" class="i23"><img style="top: -2000px;" src="trans.png" class="i24"><img style="top: -2000px;" src="trans.png" class="i25"><img style="top: -2000px;" src="trans.png" class="i26"><img style="top: -2000px;" src="trans.png" class="i27"><img style="top: -2000px;" src="trans.png" class="i28"><img style="top: -2000px;" src="trans.png" class="i29"><img style="top: -2000px;" src="trans.png" class="i30"><img style="top: -2000px;" src="trans.png" class="i31"><img style="top: -2000px;" src="trans.png" class="i32"><img style="top: -2000px;" src="trans.png" class="i33"><img style="top: -2000px;" src="trans.png" class="i34"><img style="top: -2000px;" src="trans.png" class="i35"><img style="top: -2000px;" src="trans.png" class="i36"><img style="top: -2000px;" src="trans.png" class="i37"><img style="top: -2000px;" src="trans.png" class="i38"><img style="top: -2000px;" src="trans.png" class="i39"><img style="top: -2000px;" src="trans.png" class="i40"><img style="top: -2000px;" src="trans.png" class="i41"><img style="top: -2000px;" src="trans.png" class="i42"><img style="top: -2000px;" src="trans.png" class="i43"><img style="top: -2000px;" src="trans.png" class="i44"><img style="top: -2000px;" src="trans.png" class="i45"><img style="top: -2000px;" src="trans.png" class="i46"><img style="top: -2000px;" src="trans.png" class="i47"><img style="top: -2000px;" src="trans.png" class="i48"><img style="top: -2000px;" src="trans.png" class="i49"><img style="top: -2000px;" src="trans.png" class="i50"><img style="top: -2000px;" src="trans.png" class="i51"><img style="top: -2000px;" src="trans.png" class="i52"><img style="top: -2000px;" src="trans.png" class="i53"><img style="top: -2000px;" src="trans.png" class="i54"><img style="top: -2000px;" src="trans.png" class="i55"><img style="top: -2000px;" src="trans.png" class="i56"><img style="top: -2000px;" src="trans.png" class="i57"><img style="top: -2000px;" src="trans.png" class="i58"><img style="top: -2000px;" src="trans.png" class="i59"><img style="top: -2000px;" src="trans.png" class="i60"><img style="top: -2000px;" src="trans.png" class="i61"><img style="top: -2000px;" src="trans.png" class="i62"><img style="top: -2000px;" src="trans.png" class="i63"><img style="top: -2000px;" src="trans.png" class="i64"><img style="top: -2000px;" src="trans.png" class="i65"><img style="top: -2000px;" src="trans.png" class="i66"><img style="top: -2000px;" src="trans.png" class="i67"><img style="top: -2000px;" src="trans.png" class="i68"><img style="top: -2000px;" src="trans.png" class="i69"><img style="top: -2000px;" src="trans.png" class="i70"><img style="top: -2000px;" src="trans.png" class="i71"><img style="top: -2000px;" src="trans.png" class="i72"><img style="top: -2000px;" src="trans.png" class="i73"><img style="top: -2000px;" src="trans.png" class="i74"><img style="top: -2000px;" src="trans.png" class="i75"><img style="top: -2000px;" src="trans.png" class="i76"><img style="top: -2000px;" src="trans.png" class="i77"><img style="top: -2000px;" src="trans.png" class="i78"><img style="top: -2000px;" src="trans.png" class="i79"><img style="top: -2000px;" src="trans.png" class="i80"><img style="top: -2000px;" src="trans.png" class="i81"><img style="top: -2000px;" src="trans.png" class="i82"><img style="top: -2000px;" src="trans.png" class="i83"><img style="top: -2000px;" src="trans.png" class="i84"><img style="top: -2000px;" src="trans.png" class="i85"><img style="top: -2000px;" src="trans.png" class="i86"><img style="top: -2000px;" src="trans.png" class="i87"><img style="top: -2000px;" src="trans.png" class="i88"><img style="top: -2000px;" src="trans.png" class="i89"><img style="top: -2000px;" src="trans.png" class="i90"><img style="top: -2000px;" src="trans.png" class="i91"><img style="top: -2000px;" src="trans.png" class="i92"><img style="top: -2000px;" src="trans.png" class="i93"><img style="top: -2000px;" src="trans.png" class="i94"><img style="top: -2000px;" src="trans.png" class="i95"><img style="top: -2000px;" src="trans.png" class="i96"><img style="top: -2000px;" src="trans.png" class="i97"><img style="top: -2000px;" src="trans.png" class="i98"><img style="top: -2000px;" src="trans.png" class="i99"><img style="top: -2000px;" src="trans.png" class="i100"><img style="top: -2000px;" src="trans.png" class="i101"><img style="top: -2000px;" src="trans.png" class="i102"><img style="top: -2000px;" src="trans.png" class="i103"><img style="top: -2000px;" src="trans.png" class="i104"><img style="top: -2000px;" src="trans.png" class="i105"><img style="top: -2000px;" src="trans.png" class="i106"><img style="top: -2000px;" src="trans.png" class="i107"><img style="top: -2000px;" src="trans.png" class="i108"><img style="top: -2000px;" src="trans.png" class="i109"><img style="top: -2000px;" src="trans.png" class="i110"><img style="top: -2000px;" src="trans.png" class="i111"><img style="top: -2000px;" src="trans.png" class="i112"><img style="top: -2000px;" src="trans.png" class="i113"><img style="top: -2000px;" src="trans.png" class="i114"><img style="top: -2000px;" src="trans.png" class="i115"><img style="top: -2000px;" src="trans.png" class="i116"><img style="top: -2000px;" src="trans.png" class="i117"><img style="top: -2000px;" src="trans.png" class="i118"><img style="top: -2000px;" src="trans.png" class="i119"><img style="top: -2000px;" src="trans.png" class="i120"><img style="top: -2000px;" src="trans.png" class="i121"><img style="top: -2000px;" src="trans.png" class="i122"><img style="top: -2000px;" src="trans.png" class="i123"><img style="top: -2000px;" src="trans.png" class="i124"><img style="top: -2000px;" src="trans.png" class="i125"><img style="top: -2000px;" src="trans.png" class="i126"><img style="top: -2000px;" src="trans.png" class="i127"><img style="top: -2000px;" src="trans.png" class="i128"><img style="top: -2000px;" src="trans.png" class="i129"><img style="top: -2000px;" src="trans.png" class="i130"><img style="top: -2000px;" src="trans.png" class="i131"><img style="top: -2000px;" src="trans.png" class="i132"><img style="top: -2000px;" src="trans.png" class="i133"><img style="top: -2000px;" src="trans.png" class="i134"><img style="top: -2000px;" src="trans.png" class="i135"><img style="top: -2000px;" src="trans.png" class="i136"><img style="top: -2000px;" src="trans.png" class="i137"><img style="top: -2000px;" src="trans.png" class="i138"><img style="top: -2000px;" src="trans.png" class="i139"><img style="top: -2000px;" src="trans.png" class="i140"><img style="top: -2000px;" src="trans.png" class="i141"><img style="top: -2000px;" src="trans.png" class="i142"><img style="top: -2000px;" src="trans.png" class="i143"><img style="top: -2000px;" src="trans.png" class="i144"><img style="top: -2000px;" src="trans.png" class="i145"><img style="top: -2000px;" src="trans.png" class="i146"><img style="top: -2000px;" src="trans.png" class="i147"><img style="top: -2000px;" src="trans.png" class="i148"><img style="top: -2000px;" src="trans.png" class="i149"><img style="top: -2000px;" src="trans.png" class="i150"><img style="top: -2000px;" src="trans.png" class="i151"><img style="top: -2000px;" src="trans.png" class="i152"><img style="top: -2000px;" src="trans.png" class="i153"><img style="top: -2000px;" src="trans.png" class="i154"><img style="top: -2000px;" src="trans.png" class="i155"><img style="top: -2000px;" src="trans.png" class="i156"><img style="top: -2000px;" src="trans.png" class="i157"><img style="top: -2000px;" src="trans.png" class="i158"><img style="top: -2000px;" src="trans.png" class="i159"><img style="top: -2000px;" src="trans.png" class="i160"><img style="top: -2000px;" src="trans.png" class="i161"><img style="top: -2000px;" src="trans.png" class="i162"><img style="top: -2000px;" src="trans.png" class="i163"><img style="top: -2000px;" src="trans.png" class="i164"><img style="top: -2000px;" src="trans.png" class="i165"><img style="top: -2000px;" src="trans.png" class="i166"><img style="top: -2000px;" src="trans.png" class="i167"><img style="top: -2000px;" src="trans.png" class="i168"><img style="top: -2000px;" src="trans.png" class="i169"><img style="top: -2000px;" src="trans.png" class="i170"><img style="top: -2000px;" src="trans.png" class="i171"><img style="top: -2000px;" src="trans.png" class="i172"><img style="top: -2000px;" src="trans.png" class="i173"><img style="top: -2000px;" src="trans.png" class="i174"><img style="top: -2000px;" src="trans.png" class="i175"><img style="top: -2000px;" src="trans.png" class="i176"><img style="top: -2000px;" src="trans.png" class="i177"><img style="top: -2000px;" src="trans.png" class="i178"><img style="top: -2000px;" src="trans.png" class="i179"><img style="top: -2000px;" src="trans.png" class="i180"><img style="top: -2000px;" src="trans.png" class="i181"><img style="top: -2000px;" src="trans.png" class="i182"><img style="top: -2000px;" src="trans.png" class="i183"><img style="top: -2000px;" src="trans.png" class="i184"><img style="top: -2000px;" src="trans.png" class="i185"><img style="top: -2000px;" src="trans.png" class="i186"><img style="top: -2000px;" src="trans.png" class="i187"><img style="top: -2000px;" src="trans.png" class="i188"><img style="top: -2000px;" src="trans.png" class="i189"><img style="top: -2000px;" src="trans.png" class="i190"><img style="top: -2000px;" src="trans.png" class="i191"><img style="top: -2000px;" src="trans.png" class="i192">
+	<img style="top: -2000px;" src="trans.png" class="i193"><img style="top: -2000px;" src="trans.png" class="i194"><img style="top: -2000px;" src="trans.png" class="i195"><img style="top: -2000px;" src="trans.png" class="i196"><img style="top: -2000px;" src="trans.png" class="i197"><img style="top: -2000px;" src="trans.png" class="i198"><img style="top: -2000px;" src="trans.png" class="i199"><img style="top: -2000px;" src="trans.png" class="i200"><img style="top: -2000px;" src="trans.png" class="i201"><img style="top: -2000px;" src="trans.png" class="i202"><img style="top: -2000px;" src="trans.png" class="i203"><img style="top: -2000px;" src="trans.png" class="i204"><img style="top: -2000px;" src="trans.png" class="i205"><img style="top: -2000px;" src="trans.png" class="i206"><img style="top: -2000px;" src="trans.png" class="i207"><img style="top: -2000px;" src="trans.png" class="i208"><img style="top: -2000px;" src="trans.png" class="i209"><img style="top: -2000px;" src="trans.png" class="i210"><img style="top: -2000px;" src="trans.png" class="i211"><img style="top: -2000px;" src="trans.png" class="i212"><img style="top: -2000px;" src="trans.png" class="i213"><img style="top: -2000px;" src="trans.png" class="i214"><img style="top: -2000px;" src="trans.png" class="i215"><img style="top: -2000px;" src="trans.png" class="i216"><img style="top: -2000px;" src="trans.png" class="i217"><img style="top: -2000px;" src="trans.png" class="i218"><img style="top: -2000px;" src="trans.png" class="i219"><img style="top: -2000px;" src="trans.png" class="i220"><img style="top: -2000px;" src="trans.png" class="i221"><img style="top: -2000px;" src="trans.png" class="i222"><img style="top: -2000px;" src="trans.png" class="i223"><img style="top: -2000px;" src="trans.png" class="i224"><img style="top: -2000px;" src="trans.png" class="i225"><img style="top: -2000px;" src="trans.png" class="i226"><img style="top: -2000px;" src="trans.png" class="i227"><img style="top: -2000px;" src="trans.png" class="i228"><img style="top: -2000px;" src="trans.png" class="i229"><img style="top: -2000px;" src="trans.png" class="i230"><img style="top: -2000px;" src="trans.png" class="i231"><img style="top: -2000px;" src="trans.png" class="i232"><img style="top: -2000px;" src="trans.png" class="i233"><img style="top: -2000px;" src="trans.png" class="i234"><img style="top: -2000px;" src="trans.png" class="i235"><img style="top: -2000px;" src="trans.png" class="i236"><img style="top: -2000px;" src="trans.png" class="i237"><img style="top: -2000px;" src="trans.png" class="i238"><img style="top: -2000px;" src="trans.png" class="i239"><img style="top: -2000px;" src="trans.png" class="i240"><img style="top: -2000px;" src="trans.png" class="i241"><img style="top: -2000px;" src="trans.png" class="i242">
+	<img style="top: -2000px;" src="trans.png" class="i243">
+</div>
+
+<p style="opacity:0;transition:opacity 1s ease;" id="enter" ><a href="home.htm" style="text-decoration:none; color:#fff;" >ENTER</a></p>
+	<script type="text/javascript">
+		var days = document.getElementById("days");
+		var hours = document.getElementById("hours");
+		var minutes = document.getElementById("minutes");
+		var seconds = document.getElementById("seconds");
+		var date1 = new Date("February 14, 2013 00:00:00");
+		var date2 = new Date();
+		var x = date1-date2;
+		var d, h, m, s;
+		x = x/1000;
+		d = Math.floor(x/86400);
+		h = (x/86400 - d)*24;
+		m = (h - Math.floor(h))*60;
+		s = (m - Math.floor(m))*60;
+		h = Math.floor(h);
+		m = Math.floor(m);
+		s = Math.floor(s);
+		if(s>9)
+			seconds.innerHTML = s;
+		else
+			seconds.innerHTML = "0"+s;
+		if(m >9)
+			minutes.innerHTML = m;
+		else
+			minutes.innerHTML = "0"+m;
+		if(h >9)
+			hours.innerHTML = h;
+		else
+			hours.innerHTML = "0"+h;
+		days.innerHTML = d;
+	setInterval(function(){
+		if(s>0){
+		if(s>9)
+			seconds.innerHTML = s;
+		else
+			seconds.innerHTML = "0"+s;
+		s--;
+		}
+			else  if(m>0){
+				s = 59;
+				seconds.innerHTML = 59;
+				if(m >9)
+					minutes.innerHTML = m;
+				else
+					minutes.innerHTML = "0"+m;
+				m--;
+			}
+				else if(h>0){
+					m = 59;
+					seconds.innerHTML = 59;
+					minutes.innerHTML = 59;
+					if(m >9)
+						hours.innerHTML = h;
+					else
+						hours.innerHTML = "0"+h;
+					h--;
+				}
+					else {
+						h = 23;
+						seconds.innerHTML = 59;
+						minutes.innerHTML = 59;
+						hours.innerHTML = 23;
+						days.innerHTML = d;
+						d--;
+					}
+	},1000);
+	var dot_pos=1;
+	$("span.dots").css("opacity","0");
+	var I = setInterval(function(){
+		if(dot_pos>3){ $("span.dots").css("opacity","0");dot_pos=1};
+		$("span.dots#"+dot_pos).css("opacity","1");
+		dot_pos++;
+	},1000);
+	$.fn.preload = function() {
+		this.each(function(){
+			$('<img/>')[0].src = this;
+			if(this=="indexme2.jpg") $(this).load(function(){effect();});
+		});
+	}
+	$(['indexme2.jpg','images/back-ground.jpg','images/il.png','images/cross.png','images/wheels.gif','images/mascot.png','images/cil-o.png','images/cocacola-o.png','images/TATA-o.png','images/vedanta-o.png','images/UCIL-o.png','images/NMDC-o.png','images/ONGC-o.png','images/f_side_final.png','images/events.png','images/cell_results.png','images/cell_contacts.png','images/cell_schedule.png','images/brick.png','images/cell2.png','images/cell4.png','images/cell.png','images/cell_about.png','images/cell_event.png','images/cell_hospitality.png']).preload();
+</script>
+</body>
+</html>

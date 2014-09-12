@@ -1,0 +1,18 @@
+<ul>
+<h1>Cricket</h1>
+<li>The tournament will be knockout or league based on the number of teams.</li>
+
+<li>The registration will be online.</li>
+
+<li>All the matches will be of T20 format with 6 overs of Power-play.</li>
+
+<li>All teams must report 30 min before the scheduled time.
+If any or both teams are not ready before the scheduled time, umpires reserve the right to take appropriate action.</li>
+
+<li>A match must be of minimum 6 (for T20) overs per side in order to be accepted as an official game.
+The deduction of runs from the target will be "run rate -1" per over reduced.
+For eg. A target of 200 runs in 20 overs will be reduced to 101 in 9 overs. (which is {10-1}x11 runs deducted from 200 )</li>
+
+
+<ul>
+asdfvcxz

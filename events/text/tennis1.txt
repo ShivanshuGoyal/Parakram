@@ -1,0 +1,15 @@
+<ul>
+<h1>Tennis</h1>
+<li>The matches of the initial rounds will comprise of best of 15 games with two singles and one doubles in the order first singles, doubles, second singles.</li>
+
+<li>At 7 each, the match will be decided by the tie break.</li>
+
+<li>The matches will be of best of three sets from the semi finals.</li>
+
+<li>The results of the full match shall be declared when either of them wins two matches.<br/>
+The tennis Tie Break Rules shall be applied in all the sets (7/12 points).</li>
+
+<li>The number of players representing an institute shall not be less than two or more than four.<br/>
+Not more than four certificates shall be awarded to a team. </li>
+</ul>
+asdfvcxz

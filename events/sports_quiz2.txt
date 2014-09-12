@@ -1,0 +1,36 @@
+<table style="margin-top:31px;margin-left:31px" border="0" cellspacing="10px" width="750px">
+	<tbody>
+		<tr>
+			<td align="right">
+				<font style="font-weight:bold; font-size:18px" color="#16648b">Powered By :</font>
+			</td>
+			<td><img src="grey.jpg" alt="greycells" style="margin-left:50px;"></td>
+		</tr>
+	</tbody>
+</table>
+<hr width="90%">
+<p align="center">
+	<font style="font-weight:bold; font-size:22px" color="#16648b">Registration Fees</font>
+</p>
+<table style="margin-left:31px" border="0" cellspacing="10px" width="750px">
+	<tbody>
+		<tr>
+			<td>
+				<font style="font-weight:bold;text-align:justify;font-family:calibri;font-size:18px" color="#000">Corporates<br></font>Rs.400/Head
+			</td>
+			<td>
+				<font style="font-weight:bold;text-align:justify;font-family:calibri;font-size:18px" color="#000">Students Outside ISM</font><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs.200/Head
+			</td>
+			<td>
+				<font style="font-weight:bold;text-align:justify;font-family:calibri;font-size:18px" color="#000">Students Inside ISM</font><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs.100/Head
+			</td>
+			<td>
+				<font style="font-weight:bold;text-align:justify;font-family:calibri;font-size:18px" color="#000">School Students</font><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rs.50/Head
+			</td>
+			<td>
+				<font style="font-weight:bold;text-align:justify;font-family:calibri;font-size:18px" color="#000">&nbsp;&nbsp;&nbsp;&nbsp;Others</font><br>Rs.300/Head
+			</td>
+		</tr>
+	</tbody>
+</table>
+asdfvcxz

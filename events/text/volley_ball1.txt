@@ -1,0 +1,16 @@
+<ul>
+<h1>Volleyball</h1>
+<li>Every team shall submit a list of players not exceeding 12, who are expected to participate in the tournament.</li>
+
+<li>All the matches shall be played on the best of five sets.</li>
+
+<li>Teams must reach the venue at the specified time.<br/>
+If a team is late, opponent team will be given walkover.</li>
+
+<li>Any team refusing to play match without justification, will be eliminated from the competition.</li>
+
+<li>The Referees will have the final say in case of any dispute.</li>
+
+<li>Internationally accepted rules will be followed in the tournament.</li>
+</ul>
+asdfvcxz

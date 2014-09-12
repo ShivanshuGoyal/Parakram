@@ -1,0 +1,22 @@
+ul.shiv{
+    list-style:none;
+    width:100%;
+}
+ul.shiv>li{
+    width:25%;
+    display:block;
+    float:left;
+    padding:10px 0px;
+    text-align:left;
+    
+}
+.footerss {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+    background: none repeat scroll 0% 0% rgb(0, 0, 0);
+	padding: 0pt;
+    margin-top: 0px;
+    margin-left:0px;
+    margin-left: 0px;
+	line-height: 1.1;
+}

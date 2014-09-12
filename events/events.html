@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>Parakram 2013</title>
+<link type="text/css" rel="stylesheet" href="style.css"/>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js" ></script>
+<style>
+	#iemsg{display:none;}
+</style>
+<!--[if IE]>
+<style>
+	#locker_room{
+	display:none;
+}
+#iemsg{
+	display:block;
+	}
+</style>
+<![endif]-->
+</head>
+<body onload="document.getElementById('winRot').value=0">
+<div id="locker_room">
+<img style="position:absolute;left:0px;" class="update" src="items/update.png" />
+<div class="updateBar" id="updateBar" >
+<h3><u>Updates</u></h3>
+<span>
+Loading updates<br/>
+Please Wait...
+</span>
+</div>
+	<div id="clock">
+		<div id="midButton"style="" ></div>
+		<img class="hhand" src="items/hhand1.png"/>
+		<img class="mhand" src="items/mhand1.png"/>
+	</div>
+	<div id="screen"></div>
+	<div class="items" id="football" >
+			<img class="football png" src="items/football.png" />
+			<img class="football text" src="items/names/football.png" />
+	</div>
+			<img class="football-gif gif" src="items/gif/football.gif" />
+	<div class="items" id="basketball" >
+		
+			<img class="basketball png" src="items/basketball.png" />
+			<img class="basketball text" src="items/names/basketball.png" />
+		
+	</div>
+			<img class="basketball-gif gif" src="items/gif/basketball.gif" />
+	<div class="items" id="cricket" >
+		
+			<img class="cricket png" src="items/cricket.png" />
+			<img class="cricket text" src="items/names/cricket.png" />
+		
+	</div>
+			<img class="cricket-gif gif" src="items/gif/cricket.gif" />
+	<div class="items" id="tennis" >
+		
+			<img class="tennis png" src="items/tennis.png" />
+			<img class="tennis text" src="items/names/tennis.png" />
+		
+	</div>
+			<img class="tennis-gif gif" src="items/gif/tennis.gif" />
+	<div class="items" id="table_tennis" >
+		
+			<img class="table_tennis png" src="items/table_tennis.png" />
+			<img class="table_tennis text" src="items/names/table_tennis.png" />
+		
+	</div>
+			<img class="table_tennis-gif gif" src="items/gif/table_tennis.gif" />
+	<div class="items" id="volley_ball" >
+		
+			<img class="volley_ball png" src="items/volley_ball.png"/>
+			<img class="volley_ball text" src="items/names/volley_ball.png"/>
+		
+	</div>
+			<img class="volley_ball-gif gif" src="items/gif/volley_ball.gif" />
+	<div class="items" id="squash" >
+
+			<img class="squash png" src="items/squash.png" />
+			<img class="squash text" src="items/names/squash.png" />
+
+	</div>
+			<img class="squash-gif gif" src="items/gif/squash.gif" />
+	<div class="items" id="athletics" >
+		
+			<img class="athletics png" src="items/athleticss.png" />
+			<img class="athletics text" src="items/names/athletics.png" />
+		
+	</div>
+			<img class="athletics-gif gif" src="items/gif/athletics.gif" />
+	<div class="items" id="gym" >
+		
+			<img class="gym png" src="items/gym.png" />
+			<img class="gym text" src="items/names/gym.png" />
+		
+	</div>
+			<img class="gym-gif gif" src="items/gif/gym.gif" />
+	<div class="items" id="badminton" >
+		
+			<img class="badminton png" src="items/badminton.png"/>
+			<img class="badminton text" src="items/names/badminton.png"/>
+		
+	</div>
+			<img class="badminton-gif gif" src="items/gif/badminton2.gif" />
+	<div class="items" id="other_games" >
+			<img class="other_games png" src="items/other_games.png"/>
+			<img class="other_games text" src="items/names/other_games.png"/>
+		
+	</div>
+			<img class="other_games-gif gif" src="items/gif/other_games.gif" />
+	<div class="items" id="sports_quiz" >
+			<img class="sports_quiz png" src="items/sports_quiz.png"/>
+			<img class="sports_quiz text" src="items/names/sports_quiz.png"/>
+		
+	</div>
+	<img class="sports_quiz-gif gif" src="items/gif/sports_quiz.gif" />
+
+</div>
+<div id="popupWindowContainer">
+	<div id="popupWindow">
+		<input type="hidden" id="winRot" name="winRot" value="0" />
+		<div id="front">
+			<div class="over" id="shortDes">
+				<div id="content">
+				</div>
+				<div class="background">
+				</div>
+			</div>
+			
+			<div id="image">
+				<img id="displayImage" width="300px" height="400px" src="items/sample_ground.png"/>
+				<img alt="pre" class="pre turnButton opacity15 over" title="pre" src="items/left1.png"  />
+				<img alt="next" class="next turnButton opacity15 over" title="next" src="items/right.png" />
+			</div>
+			
+			<span style="position:absolute;top:-5%;display:block;width:1.5%;height:5%;right:0px;cursor:pointer;color:#fff" class="over" onclick="closeWindow()"><img alt="close" title="close" style="height:100%" src="items/close.png" onmouseover="this.src='items/closeh.png'" onmouseout="this.src='items/close.png'" </span>
+		</div>
+	<div id="circles"><ul></ul></div>
+	</div>
+</div>
+<div id="iemsg">
+	Sorry Dear!,<br/>
+	This page isn't meant for IE.<br/>
+	This page is best viewed in firefox and chrome.
+</div>
+
+<script type="text/javascript" src="script.js" ></script>
+</body>
+</html>

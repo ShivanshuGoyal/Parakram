@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <title>Parakram 2013</title> 
+    <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
+    <link rel="stylesheet" type="text/css" href="home_style.css" />
+	<link rel="stylesheet" href='css/demo.css' />
+    <link rel="stylesheet" href="css/football.css" />
+    <link rel="stylesheet" href="css/effect on ball.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="register1.css" />
+	<link rel="stylesheet" href="register.css" />
+    <script type='text/javascript' src='jquery.js'></script>
+    <script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='scripts/camera.min.js'></script> 
+	<script type='text/javascript' src='scripts/jscript.js'></script> 
+	<script type='text/javascript' src='register.js' ></script>	
+	<script type='text/javascript' src='feedback.js' ></script>	
+	<script type='text/javascript' src='star.js' ></script>	
+    <script type="text/javascript">
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_2').camera({
+				height: '562px',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: true,
+				hover:false
+			});
+		});
+	</script>
+	<script type="text/javascript">
+
+document.onkeydown=function(e)
+{
+var code = e.which ? e.which : e.keyCode;
+if(code==107 && e.ctrlKey)
+{
+            
+			//alert("shivanshu");
+            return false;
+}
+if(code==189 && e.ctrlKey)
+{
+            
+			//alert("shivanshu");
+            return false;
+}
+if(code==187 && e.ctrlKey)
+{
+            
+			//alert("shivanshu");
+            return false;
+}
+
+if(code==109 && e.ctrlKey)
+{
+
+            //alert("shivanshu");
+            return false;
+}
+};
+</script>
+
+	
+	<style type="text/css">
+ .shivanshu {
+    
+	
+	font: bold 12px/25px Arial, Helvetica;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #000;
+	text-transform:uppercase;
+    
+	}
+div.fb-like{
+	display:block;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+iframe.twitter-share-button{
+	position: absolute;
+	top: 100px;
+	left:10px;
+}
+</style>
+</head>
+<body background="images/brick.png" style="">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+if(!d.getElementById(id))
+{js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}
+}(document,"script","twitter-wjs");</script>
+	<div class="fb-like" data-href="http://www.facebook.com/Parakram.ism?fref=ts" data-send="true" data-layout="box_count" data-width="800" data-show-faces="true"></div>
+	<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+	<div id="scrl_pos" style="position:absolute;z-index:7000;color:#00f;display:none"></div>
+	
+	<div id="amit">
+		<div id="ball" >
+			<div id="ball_p">
+				<div class="" id="b_center" >	
+					<img src='images/cell4.png' alt="" class="cell_back" id="cell_center" >
+				
+					<div class="box_right_c"></div>
+					<div class="box_right_c_r"></div>
+					<div class="box_right_c_r2"></div>
+					<div class="box_s"></div>
+				</div>
+				<div class="hex flip0 shutter_up" id="b1">
+				<a href="links.html#about">
+					<img src="images/abouti.png" alt="" class="cell_cover" id="side_cell_over1">
+					<img src="images/cell_about.png"  alt="" class="cell_back 0" id="side_cell1">
+				</a>
+					<div class="box_right"></div>
+					<div class="box_right_r"></div>
+					<div class="box_right_r2"></div>
+				</div>
+					
+				<div class="hex shutter_down" id="b2">
+				<a href="events/events.html">
+					<img src="images/eventsi.png" alt="" class="cell_cover" id="side_cell_over2">
+					<img src="images/cell_event.png" alt="" class="cell_back 60" id="side_cell2">
+				</a>
+					<div class="box_right"></div>
+					<div class="box_right_r"></div>
+					<div class="box_right_r2"></div>
+				</div>
+				<div class="hex shutter_down" id="b3">
+				<a href="links.html#hospitality">
+					<img src="images/hospi.png" alt="" class="cell_cover" id="side_cell_over3">
+					<img src="images/cell_hospitality.png" alt="" class="cell_back 120" id="side_cell3">
+				</a>
+					<div class="box_right"></div>
+					<div class="box_right_r"></div>
+					<div class="box_right_r2"></div>
+				</div>
+				<div class="hex shutter_down" id="b4">
+				<a href="links.html#schedule">
+					<img src="images/schedi.png" alt="" class="cell_cover" id="side_cell_over4">
+					<img src="images/cell_schedule.png" alt="" class="cell_back 180"  id="side_cell4">
+				</a>
+					<div class="box_right"></div>
+					<div class="box_right_r"></div>
+					<div class="box_right_r2"></div>
+				</div>
+				<div class="hex shutter_up" id="b5">
+				<a href="comingsoon.html">
+					<img src="images/cell3.png" alt="" class="cell_cover" id="side_cell_over5">
+					<img src="images/cell_results.png" alt="" class="cell_back 240" id="side_cell5">
+				</a>
+					<div class="box_right"></div>
+					<div class="box_right_r"></div>
+					<div class="box_right_r2"></div>
+				</div>
+				<div class="hex shutter_up" id="b6">
+				<a href="links.html#contacts">
+					<img src="images/contactsi.png" alt="" class="cell_cover" id="side_cell_over6">
+					<img src="images/cell_contacts.png" alt="" class="cell_back 300"  id="side_cell6">
+				</a>
+					<div class="box_right"></div>
+					<div class="box_right_r"></div>
+					<div class="box_right_r2"></div>
+				</div>
+				
+			</div>
+		</div>	
+		<div id="left_leaf">
+			<div id="leaf_menu" >
+				<div class="links i_about_hover" id="0"></div>
+				<img src="images/about.png" class="0 leaf_img" id="i_about" alt="" >
+				<div class="links i_events_hover" id="60"></div>
+				<img src="images/events.png" class="60 leaf_img" id="i_events" alt="" >
+				<div class="links i_hospitality_hover" id="120"></div>
+				<img src="images/hospitality.png" class="120 leaf_img" id="i_hospitality" >
+				<div class="links i_schedule_hover" id="180"></div>
+				<img src="images/schedule.png" class="180 leaf_img" id="i_schedule" >
+				<div class="links i_results_hover" id="240"></div>
+				<img src="images/results.png" class="240 leaf_img" id="i_results" >
+				<div class="links i_contacts_hover" id="300"></div>
+				<img src="images/contacts.png" class="300 leaf_img" id="i_contacts" >
+			</div>
+			<img src="images/f_side_final.png" alt="" >
+		</div>
+		<div class="fb-like" data-href="http://www.facebook.com/Parakram.ism?fref=ts" data-send="true" data-layout="box_count" data-width="800" data-show-faces="true"></div>
+		<div class="updateBar" id="updateBar" style="transform: matrix3d(1.2, 0.04, 0, 0.0009, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);transform-origin: 0% 50% 0px;left: 45px;top: 282px;">
+			<h3><u>Updates</u></h3>
+			<span style="text-align:left;margin:1em;">
+			Loading updates<br/>
+			Please Wait...
+		</span>
+	</div>
+	</div>
+	<div id="home">
+		<span id="about" class="menu"><span><span><b>A</b>BOUT</span></span></span>
+		<div style="" class="data about-more" id="about-div"> 
+			<div class="text">
+				<h1><b>A</b>BOUT</h1>
+				Two words won't define Parakram, but it still is our Annual Sports Meet, held every year in the colds of February. This season, pay us a visit, flex your muscles, show your strength, 
+				be a rage, make your game and winning shall take care of itself. <br>We ISM invite you to our cold soil, fill it with the thump of your breath, let this steam burn you.<br>Show your PARAKRAM.
+				<hr>
+				<span class="more about"><span id="about-more" class="more">more</span><span id="about-more" class="less" style="display:none">less</span></span>
+				<div class="about-more ext" style="height:0px;overflow:hidden;">
+				
+					No pain, no palm. No thorns, no throne. No gall, no glory. No Cross, no Crown.<br/>Let this heat get on you, let the steam burn you, let the sweat drown you and let this game define you.
+					<br/>The time is back, the board is set. Some grips, striving for your touch. Some acts, waiting for your guts. Some us and some you looking down the rest.<br/>People call us meagre; Call us 
+					the petty side-life of their prosperity. But we, We don’t buy them, because this is much beyond their might, much beyond the compilation of their bucks, much beyond the sense of their
+					mind.<br/>Once again, let your warm feets touch the cold soil of our tracks; fill the hollowness of our wind with the thump of your breath. Minds around us galore, much words thrown; Enough said and done. 
+					<br/>Show the spirit, be a Rage; This February, WeISM, invites you and everyone, every player and every playing soul, to this exhilarating and scintillating world of 
+					Sports and Games at our place. Our ISM, your battlefield. To one of the biggest sporting event in East India, to the culture.
+					<br>
+					Let your Parakram reach the zenith of its survival, the year of 2013, ISM. This PARAKRAM, Let the games begin.
+					<br>
+
+					Parakram is Our Annual Sports Meet, conducted at the Inter-College level, organised by the very own students of ISM. A 3-day extravaganza, Parakram, is not our definition of 
+					sports, we don’t wish to; Parakram is an honour to the oldest trait of human survival. The platform sets every year in the month of February, at Indian School of Mines, Dhanbad, 
+					Jharkhand. Our comprehensive organisation peeks from the fact that the sports included are Cricket, Basketball, Football, Tennis, Table-Tennis, Squash, Volleyball, Badminton, Athletics,
+					Gymnastics. Besides the core sporting events, there are always the other, but never minor, events like Sports Quiz and other Fun-filled stakeouts.
+					<br>
+
+					So, this winter, come join us in the city of Dhanbad, flex your muscles and we promise that you will be challenged to your last breath and any preconceived notion about what 
+					it takes to be an athlete will be put to test.
+				
+				
+				</div>
+			</div>
+		</div>
+		<span id="events" class="menu"><span><span><b>E</b>VENTS</span></span></span>
+		<div class="data" id="events-div">
+			<div class="text">
+				<h1><b>E</b>VENTS</h1>
+				We ain’t the whole ball of wax. No, we are not.<br>But You Sir, you reading this; if you are an Indian, you know us and you play, there’s much higher probability we have something for 
+				you in store.<br>Check them out. And just come already!<br>Let the games begin.
+				<hr>
+				<span class="more events"><a href="events/events.html" style="text-decoration:none;color:#000;">Events Page</a></span>
+				<div class="events-more ext" style="height:0px;overflow:hidden;">
+				</div>
+			</div>
+		</div>
+		<span id="sched" class="menu"><span><span><b>S</b>CHEDULE</span></span></span>
+		<div class="data sched-more" id="sched-div">
+			<div class="text">
+				<h1><b>S</b>CHEDULE</h1>
+				Pick up a calendar. Don't have? Go and get one. No? Okay, you have a mobile, pick it up, this does have a calendar, doesn't it?<br>Now, just mark these days, mark these times.<br>
+				Wouldn't want to miss your Game, would you? 
+				<hr>
+				<span class="more sched"><span id="sched-more" class="more">more</span><span id="sched-more" class="less" style="display:none">less</span></span>
+				<div class="sched-more ext" style="height:0px;overflow:hidden;">
+					Coming Soon
+				</div>
+			</div>
+		</div>
+		<span id="hosp" class="menu"><span><span><b>H</b>OSPITALITY</span></span></span>
+		<div class="data hosp-more" id="hosp-div">
+			<div style="" class="text">
+				<h1><b>H</b>OSPITALITY</h1>
+				Tread our tracks, be our guests and we can assure, we will not disappoint.<br>So just pack your bags, oh wait, pack them when the time comes. Track your routes, have these days booked for
+				us and we will be waiting at your arrival.<br>
+				Our hospitality awaits. 
+				<hr>
+				<span class="more hosp"><span style="display: block;" id="hosp-more" class="more">more</span><span id="hosp-more" class="less" style="display: none;">less</span></span>
+				<div class="hosp-more ext" style="height:0px;overflow:hidden;">
+					<p align="center"><font style="font-weight:bold; font-size:22px" color="#16648b">Hospitality Heads</font></p>
+					<table style="font-weight: bold; font-family: calibri; font-size: 17px;" border="0" cellpadding="" cellspacing="" width="100%">
+						<tbody>
+							<tr>
+								<td style="text-align: center;">Abhay Jain</td>
+								<td style="text-align: center;">Vaibhav Singh Chauhan</td>
+								<td style="text-align: center;">Varun Reddy</td>
+							</tr>
+							<tr>
+								<td style="text-align: center;">82 98 17 07 27</td>
+								<td style="text-align: center;">89 86 67 35 34</td>
+								<td style="text-align: center;">89 87 58 35 93</td>
+							</tr>
+						</tbody>
+					</table>
+					<br>
+					On behalf of the entire Parakram team, we would like to extend a warm welcome to you and hope that you cherish each and every moment of
+					your stay at the beautiful campus of ISM Dhanbad.<br><br> Parakram, the annual sports festival of ISM Dhanbad, 
+					is one of the largest sports festivals of India which provides a unique platform for young talents to stretch their imaginations
+					to the limit and exhibit their skills across a multitude of challenging, arduous and thought provoking events traversing all fields of sports. 
+					<br><br>
+				</div>
+			</div>
+		</div>
+		<span id="results" class="menu"><span><span><b>R</b>ESULTS</span></span></span>
+		<div class="data results-more" id="results-div">
+			<div class="text">
+				<h1><b>R</b>ESULTS</h1>
+				Now is not the time for it. But, when it comes and when you have lived your Game. This will be your stop.<br>You win some, you lose some. And you ditch some.<br>Either way, except the latter, You are most Welcome.
+				<hr>
+				<span class="more results"><span id="results-more" class="more">more</span><span id="results-more" class="less" style="display:none">less</span></span>
+				<div class="results-more ext" style="height:0px;overflow:hidden;">
+					Coming Soon
+				</div>
+			</div>
+		</div>
+		<span id="contacts" class="menu"><span><span><b>C</b>ONTACTS</span></span></span>
+		<div class="data contacts-more" id="contacts-div">
+			<div style="" class="text">
+				<h1><b>C</b>ONTACTS</h1>
+				The battleground will be set from 14th to 16th February at Indian School of Mines, Dhanbad, Jharkhand.<br>Everything about everything is right here. What more could you need?<br>But still, if anything 
+				bugs you, just pick up a phone, dial us and we will be most happy to oblige.<br>Or you can always mail us, we will not keep you waiting. Take our word for that.<br>Tuned.
+				<hr>
+				<span class="more contacts"><span style="display: block;" id="contacts-more" class="more">more</span><span id="contacts-more" class="less" style="display: none;">less</span></span>
+				<div class="contacts-more ext" style="height:0px;overflow:hidden;">
+					<p align="center">
+						<font style="font-weight:bold; font-size:22px" color="#16648b">Sport Secretary</font>
+					</p>
+					<table style="font-weight: bold; font-family: calibri; font-size: 17px;" border="0" cellpadding="" cellspacing="" width="100%">
+						<tbody>
+							<tr><td style="text-align: center;">Indumathi Eslavathu</td></tr>
+							<tr><td style="text-align: center;"></td></tr>
+						</tbody>
+					</table>
+					<p align="center">
+						<font style="font-weight:bold; font-size:22px" color="#16648b">Co-ordinators</font>
+					</p>
+					<table style="font-weight: bold; font-family: calibri; font-size: 17px;" border="0" cellpadding="" cellspacing="" width="100%">
+						<tbody>
+							<tr><td style="text-align: center;">Ashutosh Tiwari</td><td style="text-align: center;">Shamil Shashi</td></tr>
+							<tr><td style="text-align: center;">89 87 42 51 56</td><td style="text-align: center;">89 86 15 15 96</td></tr>
+						</tbody>
+					</table>
+
+					<p align="center"><font style="font-weight:bold; font-size:22px" color="#16648b">Team Parakram</font></p>
+					<table style="font-weight: bold; font-family: calibri; font-size: 17px;" border="0" cellpadding="" cellspacing="" width="100%">
+						<tbody><tr><td style="text-align: center;">Sakshi Gopal</td><td style="text-align: center;">Snehil</td><td style="text-align: center;">Kalpesh Agrawal</td></tr>
+							<tr><td style="text-align: center;">75 49 19 18 15</td><td style="text-align: center;">82 98 07 22 35</td><td style="text-align: center;">89 86 69 73 73</td></tr>
+							<tr><td style="text-align: center;"><br><br> </td><td style="text-align: center;"><br><br> </td><td style="text-align: center;"><br><br> </td></tr>
+							<tr><td style="text-align: center;">Vikram Sai</td><td style="text-align: center;">Vishesh Srivastava</td><td style="text-align: center;">Deepankar Gupta</td></tr>
+							<tr><td style="text-align: center;">88 09 63 04 62</td><td style="text-align: center;">89 86 69 72 37</td><td style="text-align: center;">75 49 05 39 34</td></tr>
+							<tr><td style="text-align: center;"><br><br> </td><td style="text-align: center;"><br><br> </td><td style="text-align: center;"> <br><br></td></tr>
+							<tr><td style="text-align: center;">Shubham Sharma</td><td style="text-align: center;">Anshul Gupta</td><td style="text-align: center;">Raghav Agarwal</td></tr>
+							<tr><td style="text-align: center;">89 86 76 97 45</td><td style="text-align: center;">95 25 15 65 09</td><td style="text-align: center;">80 51 00 88 38</td></tr>
+							<tr><td style="text-align: center;"><br><br> </td><td style="text-align: center;"><br><br> </td><td style="text-align: center;"><br><br> </td></tr>
+							<tr><td style="text-align: center;">Utsav Sharma</td><td style="text-align: center;">Sanjeeban Roy</td><td style="text-align: center;">Rahul Kawale</td></tr>
+							<tr><td style="text-align: center;">89 69 19 16 34</td><td style="text-align: center;">90 31 09 74 65</td><td style="text-align: center;">88 09 50 04 72</td></tr>
+							<tr><td style="text-align: center;"> <br><br></td><td style="text-align: center;"> <br><br></td><td style="text-align: center;"> <br><br></td></tr>
+							<tr><td style="text-align: center;">Jitin Prakash</td><td style="text-align: center;">Sanket Uttarwar</td></tr>
+							<tr><td style="text-align: center;">88 09 63 03 97</td><td style="text-align: center;">95 07 24 98 42</td></tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<span id="gallery" class="menu"><span><span><b>G</b>ALLERY</span></span></span>
+		<div class="data" id="gallery-div">
+			<div class="text">
+				<h1><b>G</b>ALLERY</h1>
+				Coming Soon
+			</div>
+		</div>
+		<span id="sponsors" class="menu last"><span><span><b>P</b>AST <b>S</b>PONSORS</span></span></span>
+		<div class="data" id="sponsors-div">
+			<div class="text">
+				<h1><b>P</b>AST <b>S</b>PONSORS</h1>
+				<p id="socialicons">
+					<a href="http://www.ongcindia.com/" target="_blank"><img src="images/ONGC-o.png" border="0" height="100px" width="100px"></a>
+					<a href="http://www.nmdc.co.in/" target="_blank"><img src="images/NMDC-o.png" border="0" height="100px" width="100px"></a>
+					<a href="http://www.ucil.gov.in" target="_blank"><img src="images/UCIL-o.png" border="0" height="100px" width="100px"></a>
+					<a href="http://www.vedantaresources.com/" target="_blank"><img src="images/vedanta-o.png" border="0" height="100px" width="100px"></a>
+					<a href="http://www.tatamotors.com/" target="_blank"><img src="images/TATA-o.png" border="0" height="100px" width="100px"></a>
+					<a href="http://us.coca-cola.com/" target="_blank"><img src="images/cocacola-o.png" border="0" height="100px" width="100px"></a>
+					<a href="http://www.coalindia.in/" target="_blank"><img src="images/cil-o.png" border="0" height="100px" width="100px"></a>				
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="btn-sign"> 
+		<a href="#login-box" class="login-window">
+			<img src="images/mascot.png" class="mascot" />
+			<img src="images/wheels.gif" class="wheels" />
+		</a>
+	</div>
+	
+	<div id="login-box" class="login-popup">		
+		<a href="#" class="close"><img src="images/cross.png" class="btn_close" title="Close Window" alt="Close" /></a>
+		<form method="post" class="signins" id="form1" action="#login-box" name="form">
+			<fieldset class="textboxs">
+				<h2 style="color:rgb(187,187,187); text-shadow:0pt 1px 3px rgb(22,22,22); font: bold 30px Arial, Helvetica;"><center>REGISTRATION FORM</center></h2>
+				<table>
+					<tr class="shivanshu">
+						<td width="150px">
+							<label class="username">
+								<span style="float:left">Name</span>
+							</label>
+						</td>
+						<td>
+							<input id="username" name="username" value="" type="text" autocomplete="on" placeholder="Name" onfocus="fun6()" onblur="fun1()"/>
+						</td>
+						<td width="200px" id="user" style="text-align:left;" class="errmsg"></td>
+					</tr>
+					<tr class="shivanshu">
+						<td>
+							<label class="college">
+								<span style="float:left">College</span>
+							</label>
+						</td>
+						<td>
+							<input id="college" name="college" value="" type="text" placeholder="Indian School Of Mines" onfocus="fun7()" onblur="fun2()"/>
+						</td>
+						<td id="coll" style="text-align:left;" class="errmsg"></td>
+					</tr>
+					<tr class="shivanshu">
+						<td>
+							<label class="email">
+								<span style="float:left">Email</span>
+							</label>
+						</td>
+						<td>
+							<input id="email" name="email" value="" type="text" placeholder="Email" onfocus="fun8()"  onblur="fun3()"/>
+						</td>
+						<td id="em" style="text-align:left;" class="errmsg"></td>
+					</tr>
+					<tr class="shivanshu">
+						<td>
+							<label class="contact">
+								<span style="float:left">Contact</span>
+							</label>
+						</td>
+						<td>
+							<input id="contact" name="contact" value="" type="text" placeholder="Contact"  onfocus="fun9()" onblur="fun4()" maxlength="10"/>
+						</td>
+						<td id="con" style="text-align:left;" class="errmsg"></td>
+					</tr>
+				</table>
+				<table width="570px" class="shivanshu" style="text-align:left;">
+					<tr height="15px">
+						<td width="150px">Participating in</td>
+						<td width="140px">
+							<input type="checkbox" name="football" class="none" id="football" onfocus="fun10()" value="football"/>
+							Football<br>
+						</td>
+						<td width="140px">
+							<input type="checkbox" name="cricket" class="none" id="cricket" onfocus="fun10()" value="ck" /> 
+							Cricket<br>
+						</td>
+						<td width="140px">
+							<input type="checkbox" name="gym" class="none" id="gym" onfocus="fun10()" value="gm" /> 
+							Gym<br>
+						</td>
+					</tr>	
+					<tr>
+						<td></td>
+						<td>
+							<input type="checkbox" name="basketball" class="none" id="basketball" onfocus="fun10()" value="bb" />
+							Basketball
+						</td>
+						<td>
+							<input type="checkbox" name="tennis" class="none" id="tennis" onfocus="fun10()" value="tn" />
+							Tennis
+						</td>
+						<td>
+							<input type="checkbox" name="volleyball" class="none" id="volleyball" onfocus="fun10()" value="vb" />
+							Volleyball
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="checkbox" name="athletics" class="none" id="athletics" onfocus="fun10()" value="at" />
+							Athletics
+						</td>
+						<td>
+							<input type="checkbox" name="tabletennis" class="none" id="tabletennis" onfocus="fun10()" value="tt" />
+							Table Tennis
+						</td>
+						<td>
+							<input type="checkbox" name="squash" class="none" id="squash" onfocus="fun10()" value="squas" />
+							Squash
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="checkbox" name="badminton" class="none" id="badminton" onfocus="fun10()" value="bd" />
+							Badminton
+						</td>
+						<td>
+							<input type="checkbox" name="gaming" class="none" id="gaming" onfocus="fun10()" value="ga" />
+							Gaming
+						</td>
+						<td>
+							<input type="checkbox" name="others" class="none" id="others" onfocus="fun10()" value="ot" />
+							Others
+						</td>
+					</tr>
+					<tr>
+						<td id="mesg" colspan="3" class="errmsg"></td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<input type = "button" id="shiv" class="buttons" value="Join Parakram 2K13"  onclick="fun5()"/>
+						</td> 
+						<td width="300px" id ="sport" class="shivanshu"></td> 
+					</tr>
+				</table>     
+			</fieldset>		  
+		</form>
+		<form class="response" style="display:none" ></form>
+	</div>
+	<span id="feedback">
+		<a href="#feedback-box" class="feedback-window">
+			Feedback
+		</a>
+	</span>
+	<div id="feedback-box" class="login-popup">		
+		<a href="#" class="close"><img src="images/cross.png" class="btn_close" title="Close Window" alt="Close" /></a>
+		<form method="post" class="signins" id="feed_form" action="feedback.php" name="feed_form">
+			<fieldset class="textboxs">
+
+			
+				<h2 style="color:rgb(187,187,187); text-shadow:0pt 1px 3px rgb(22,22,22); font: bold 30px Arial, Helvetica;"><center>FEEDBACK FORM</center></h2>
+				<table>
+					<tr class="label">
+						<td width="150px">
+							<label class="names">
+								<span style="float:left">Name</span>
+							</label>
+						</td>
+						<td>
+							<input id="names" name="names" value="" type="text" autocomplete="on" placeholder="Name" onfocus="funs6()" onblur="funs1()" style="width:300px"/>
+						</td>
+						<td width="100px" id="users" style="text-align:left;" class="errmsg"></td>
+					</tr>
+					<tr class="label">
+						<td>
+							<label class="colleges">
+								<span style="float:left">College</span>
+							</label>
+						</td>
+						<td>
+							<input id="colleges" name="colleges" value="" type="text" placeholder="Indian School Of Mines" onfocus="funs7()" onblur="funs2()" style="width:300px"/>
+						</td>
+						<td id="colls" style="text-align:left;" class="errmsg"></td>
+					</tr>
+					<tr class="label">
+						<td>
+							<label class="emails">
+								<span style="float:left">Email</span>
+							</label>
+						</td>
+						<td>
+							<input id="emails" name="emails" value="" type="text" placeholder="Email" onfocus="funs8()"  onblur="funs3()" style="width:300px"/>
+						</td>
+						<td id="ems" style="text-align:left;" class="errmsg"></td>
+					</tr>
+					
+					<tr class="label">
+						<td>
+							<label class="feedbacks">
+								<span style="float:left">Feedback</span>
+							</label>
+						</td>
+						<td>
+							<textarea id="feedbacks" name="feedbacks" value="" placeholder="Feedback"  onfocus="funs10()" onblur="funs5()" style="width:300px; height:100px;"></textarea>
+						</td>
+						<td id="feeds" style="text-align:left;" class="errmsg"></td>
+					</tr>
+					<tr class="label">
+						<td>
+							<label class="rates">
+								<span style="float:left">Rate The Site</span>
+							</label>
+						</td>
+						<td align = "left">
+							<div id = "star">
+								<ul id="star0" class="star" onmousedown="star.update(event,this)" onmousemove="star.mouse(event,this)" title="Rate The Site!">
+									<li>&nbsp;&nbsp;&nbsp; </li>
+									<li id="starCur0" class="curr" title="98" style="width: 82px;"></li>
+								</ul>
+								<div style="color: rgb(136, 136, 136);" id="starUser0"  class="user">98%</div>
+								<input name="rating" id="rating1" value="98%" type="hidden" />
+							</div>
+						</td>
+						<td id="con" style="text-align:left;" class="errmsg"></td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+							<input type = "button" id="shiv" class="buttons" value="Submit"  onclick="funs()"/>
+						</td> 
+					</tr>
+				</table>     
+			</fieldset>
+			<fieldset id="response" style="display:none;" ></fieldset>
+		</form>
+	</div>
+<footer class="footerss">
+	    <table>
+		<tr>
+		<td width="250px" style="color:rgb(15,120,120); text-align:left">
+    	&copy; Parakram 2013. All rights reserved.
+		</td>
+		<td width="900px"></td>
+		<td><a href="#" style="text-decoration:none; color:rgb(15,120,120)">Back to top</a></p>
+		</td>
+		</tr>
+		
+		</table>
+		
+		    	
+            </div>
+			
+        <br />
+        
+        <div><table><tr><td width="750px" style="text-align:left">
+        <strong style="color:rgb(15,120,120)">Website developed by:</strong> <a href="http://www.facebook.com/manny.happenings" target="_new" style="text-decoration:none; color:rgb(255,255,255)" >Manish Sharma</a><strong style="color:rgb(15,120,120)">,</strong> 
+        <a href="http://www.facebook.com/amitkverma01" target="_new" style="text-decoration:none; color:rgb(255,255,255)" >Amit Verma</a><strong style="color:rgb(15,120,120)">,</strong> 
+		<a href="http://www.facebook.com/hind.kgeel" target="_new" style="text-decoration:none; color:rgb(255,255,255)" >Hind K Geel</a><strong style="color:rgb(15,120,120)">,</strong> 
+		<a href="http://www.facebook.com/kriplanipavan" target="_new" style="text-decoration:none; color:rgb(255,255,255)" >Pavan Kriplani</a><strong style="color:rgb(15,120,120)">, and</strong> 
+		<a href="http://www.facebook.com/shivanshu.goyal.1" target="_new" style="text-decoration:none; color:rgb(255,255,255)" >Shivanshu Goyal</a> 
+		</td><td width="600px"></td></tr></table>
+		</div>
+   
+</footer>
+</body> 
+</html>

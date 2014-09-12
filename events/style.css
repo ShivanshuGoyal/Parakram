@@ -1,0 +1,583 @@
+@font-face {
+	font-family: 'digiface';
+	src: url('digiface.ttf');
+}
+#updateBar *{
+	font-family:Digiface;
+	font-size:0.9em;
+}
+#updateBar>h3>u{
+    font-size:1.4em;
+}
+#updateBar b{
+	font-weight:900;
+}
+#updateBar>h3{
+    text-align:center;
+}
+.opacity9{
+	opacity:0.9;
+}
+.opacity15{
+	opacity:0.15;
+}
+
+*{
+	border:0;
+	padding:0;	
+	margin:0;
+	transition:all 2s;
+	-moz-transition:all 2s;
+	-webkit-transition: all 2s;
+	-ms-transition: all 2s;
+	-o-transition: all 2s;
+	font-family:open-sans;
+}
+#locker_room{
+	height:100%;
+	width:100%;
+	background-image:url('lock1.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-position:fixed;
+}
+img.update{
+    top:0px;
+    width:25%;
+    height:33%;
+    z-index:0;
+}
+#updateBar{
+    background:url(items/grid.png);
+    position:absolute;
+    top:9.8%;
+    left:4.81%;
+    height:21.8%;
+    width:19.1%;
+    z-index:2;
+	color:#6f6;
+	overflow-y:auto;
+}
+#updateBar>span{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#newWindow{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.9);
+	position:absolute;
+	display:none;
+	top:0px;
+	left:0px;
+}
+#clock{
+    border:3px solid transparent;
+    position:absolute;
+    height:26.8%;
+    width:12.5%;
+    top:53.5%;
+    left:11.8%;
+}
+#clock>img{
+    position:absolute;
+}
+#clock>.mhand{
+    width:35%;
+    height:7%;
+    left:47.12%;
+    bottom:51%;
+	transition:transform 1000ms;
+    transform-origin:6%;
+    transform:rotate(-90deg);
+	-moz-transition:transform 1000ms;
+    -moz-transform-origin:6%;
+    -moz-transform:rotate(-90deg);
+	-webkit-transition:transform 1000ms;
+    -webkit-transform-origin:6%;
+    -webkit-transform:rotate(-90deg);
+}
+#clock>.hhand{
+    width:33%;
+    height:13%;
+    left:45.5%;
+    bottom:47%;
+    transform-origin:9.6%;
+    transform:rotate(-90deg);
+	-moz-transform-origin:9.6%;
+    -moz-transform:rotate(-90deg);
+	-webkit-transform-origin:9.6%;
+    -webkit-transform:rotate(-90deg);
+    
+}
+#midButton{
+    background:#000;
+    position:absolute;
+    height:10%;
+    width:10%;
+    display:non;
+    border-radius:5em;
+    top:39.5%;
+    left:44.4%;
+}
+.items{
+    position:absolute;
+    background:transparent;
+	display:block;
+    perspective:500px;
+    -moz-perspective:500px;
+    -webkit-perspective:500px;
+	-o-perspective:500px;
+	-ms-perspective:500px;
+}
+.items>img{
+    transition:height 600ms;
+    -moz-transition:height 600ms;
+    -webkit-transition:height 600ms;
+    position:absolute;
+}
+#screen{
+    position:absolute;
+    background:rgba(0,0,0,0.95);
+    left:32.55%;
+    top:39.3%;
+    height:33%;
+    width:16%;
+}
+.items+.gif{
+	opacity:0;
+    position:absolute;
+	transition:opacity 0.5s ease-in-out;
+    left:33%;
+    top:40%;
+    height:31.5%;
+    width:15%;
+    z-index:0;
+}
+
+.items:hover>img.png{
+    height:200%;
+    z-index:200;
+}
+.items:hover>img.text{
+    height:110%;
+    z-index:200;
+}
+.items:hover+img.gif{
+    opacity:1;
+}
+#football{
+    height:10%;
+    right:35%;
+    top:11%;
+	z-index:212;
+}
+img.football.png{
+    height:100%;
+    right:0%;
+    top:0%;
+}
+img.football.text{
+    height:80%;
+    left:110%;
+    top:-20%;
+}
+#basketball{
+    height:10%;
+    left:76.5%;
+    top:11%;
+	z-index:211;
+}
+img.basketball.png{
+    height:100%;
+    left:0%;
+    top:0%;
+}
+img.basketball.text{
+    height:80%;
+    right:23%;
+    bottom:-20%;
+
+}
+#cricket{
+    height:10%;
+    right:34%;
+    top:22%;
+	z-index:210;
+}
+img.cricket.png{
+    height:100%;
+    right:0%;
+    top:0%;
+	
+}
+img.cricket.text{
+    height:80%;
+    left:100%;
+    top:-20%;
+
+}
+#tennis{
+    height:10%;
+    left:76.5%;
+    top:22%;
+	z-index:209;
+}
+img.tennis.png{
+    height:100%;
+    left:0%;
+    top:0%;
+	transform:rotate(-30deg);
+	-moz-transform:rotate(-30deg);
+	-webkit-transform:rotate(-30deg);
+}
+img.tennis.text{
+    height:80%;
+    right:23%;
+    bottom:-20%;
+
+}
+#table_tennis{
+    height:10%;
+    right:34%;
+    top:33%;
+	z-index:208;
+}
+img.table_tennis.png{
+    height:100%;
+    right:0%;
+    top:0%;
+
+}
+img.table_tennis.text{
+    height:80%;
+    left:100%;
+    top:-20%;
+
+}
+#volley_ball{
+    height:10%;
+    left:76.5%;
+    top:33%;
+	z-index:207;
+}
+img.volley_ball.png{
+    height:100%;
+    left:0%;
+    top:0%;
+
+}
+img.volley_ball.text{
+    height:80%;
+    right:23%;
+    bottom:-20%;
+
+}
+#squash{
+    height:10%;
+    right:35%;
+    top:44%;
+	z-index:206;
+}
+img.squash.png{
+    height:100%;
+    right:0%;
+    top:0%;
+	transform:rotate(-30deg);
+	-moz-transform:rotate(-30deg);
+	-webkit-transform:rotate(-30deg);
+}
+img.squash.text{
+    height:80%;
+    left:100%;
+    top:-20%;
+
+}
+#athletics{
+    height:10%;
+    left:76.5%;
+    top:44%;
+	z-index:205;
+}
+img.athletics.png{
+    height:100%;
+    left:0%;
+    top:0%;
+
+}
+img.athletics.text{
+    height:80%;
+    right:23%;
+    bottom:-20%;
+
+}
+#gym{
+    height:10%;
+    right:35%;
+    top:55%;
+	z-index:204;
+}
+img.gym.png{
+    height:100%;
+    right:0%;
+    top:0%;
+
+}
+img.gym.text{
+    height:80%;
+    left:100%;
+    top:-20%;
+
+}
+#badminton{
+    height:10%;
+    left:77%;
+    top:55%;
+	z-index:203;
+}
+img.badminton.png{
+    height:100%;
+    left:0%;
+    top:0%;
+	transform:rotate(-30deg);
+	-moz-transform:rotate(-30deg);
+	-webkit-transform:rotate(-30deg);
+}
+img.badminton.text{
+    height:80%;
+    right:23%;
+    bottom:-20%;
+
+}
+#other_games{
+    position:absolute;
+    height:12%;
+    width:0%;
+    right:33.7%;
+    top:67%;
+	z-index:202;
+}
+#other_games:hover>img.text{
+    height:150%;
+}
+#other_games:hover>img.png{
+    height:150%;
+}
+img.other_games.png{
+    height:100%;
+    right:-100%;
+    top:0%;
+}
+img.other_games.text{
+    height:100%;
+    
+}
+#sports_quiz{
+    position:absolute;
+    height:12%;
+    width:5%;
+    right:29%;
+    top:76.8%;
+	z-index:201;
+}
+#sports_quiz:hover>img.text{
+    height:150%;
+}
+#sports_quiz:hover>img.png{
+    height:150%;
+}
+img.sports_quiz.text{
+    height:100%;
+    
+}
+img.sports_quiz.png{
+    height:100%;
+    left:200%;
+    top:0%;
+}
+
+#popupWindowContainer{
+	width:100%;
+	height:100%;
+	perspective:1000px;
+	-moz-perspective:1000px;
+	-webkit-perspective:1000px;
+	-o-perspective:1000px;
+	-ms-perspective:1000px;
+	background-color: rgba(0,0,0,0.8);
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	overflow:hidden;
+	z-index:300;
+}
+
+#popupWindow{
+	height:90%;
+	width:95%;
+	position:absolute;
+	top:5%;
+	left:2.5%;
+	transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-o-transform-style:preserve-3d;
+	-ms-transform-style:preserve-3d;
+    -webkit-transform-style:preserve-3d;
+    
+}
+#popupWindow>div{
+	
+}
+
+#front{
+    position:absolute;
+	width:100%;
+	height:100%;
+	perspective:1000px;
+	backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+}
+#front>#image{
+	margin-right:3.4%;
+	float:right;
+	margin-top:17.4%;
+}
+#front>img{
+	
+}
+#shortDes{
+	position:absolute;
+	width:48%;
+	height:100%;
+	background:#fff url(items/background.png);
+	
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-webkit-transform-style:preserve-3d;
+	transition:transform 1000ms;
+	-moz-transition:-moz-transform 1000ms;
+	-webkit-transition:-webkit-transform 1000ms;
+	transform-origin:0%;
+	-moz-transform-origin:0%;
+	-webkit-transform-origin:0%;
+	overflow-y:auto;
+}
+#content{
+	
+}
+div.background{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background:rgb(255,255,255);
+	backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	border-radius:20px;
+	transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+}
+#back{
+	background-color:rgba(134,134,255,0.8);
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+	backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+}
+img#displayImage{
+    position:absolute;
+    height:80%;
+    width:40%;
+    top:10%;
+    right:3%;
+}
+img.turnButton{
+    position:absolute;
+    bottom:40%;
+	transition:opacity 800ms;
+	-moz-transition:opacity 800ms;
+	-webkit-transition:opacity 800ms;
+	-o-transition:opacity 800ms;
+	-ms-transition:opacity 800ms;
+    height:15%;
+}
+img.turnButton:hover{
+    opacity:0.8;
+}
+img.pre{
+    left:60%;
+}
+img.next{
+    right:4.62%;
+}
+#content>ul{
+	display:block;
+	margin:3% 8% 8%;
+	color:#222;
+	text-shadow:3px 2px 1px #eee;
+	font-size:1.2em;
+	list-style:cicle;
+}
+#content>ul>h1{
+    text-align:center;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: rgb(22, 100, 139);
+	font-family: Cooper Black,Helvetica,sans-serif;
+	padding:3%;
+	padding-top:0%;
+	
+}
+#content>ul>li{
+	margin-bottom:3%;
+}
+#circles{
+	position:absolute;
+	bottom:-2.5%;
+	left:12%;
+	height:1%;
+	width:100%;
+}
+#circles>ul{
+	list-style:none;
+	height:200%;
+	width:100%;
+	}
+#circles>ul>li{
+	display:block;
+	float:left;
+	border-radius:5px;
+    height:100%;
+	width:1.5%;
+	margin-left:3%;
+}
+.circleHighlighted{
+	background:rgba(255,255,255,0.9);
+	box-shadow:0px 0px 2px #fff;
+}
+.circleunHighlighted{
+	background:rgba(255,255,255,0.15);
+}

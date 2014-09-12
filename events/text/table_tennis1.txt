@@ -1,0 +1,21 @@
+<ul>
+<h1>Table Tennis</h1>
+<li>    The rules of the International Table Tennis Federation as adopted from time to time by the Table Tennis Federation of India shall apply unless otherwise modified in these rules.</br>
+         MEN: Matches will be held on the basis of five singles (Best of five)</br>
+         WOMEN: Matches will be held on the basis of two singles and one doubles (Best of three)</br>
+</li>
+<li>    The order of play shall be as follows:
+           Three players on one side are numbers A,B and C and
+           the three players on the other side are numbered X,Y and Z.
+
+<center>
+<small>
+<pre>
+A X
+B Y
+C Z
+</pre>
+</small>
+</center>
+</li>
+</ul>asdfvcxz
